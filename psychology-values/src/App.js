@@ -1,23 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import DecisionComponent from './components/decisionComponent'
 
 function App() {
+
+  const [title, setTitle] = useState("testtitle");
+  const [info, setInfo] = useState("testinfo");
+
+  function setImportance(importance) {
+    console.log(importance);
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hallo Kochanie
-        </a>
+        <DecisionComponent title={title} info={info} important={setImportance} />
       </header>
     </div>
   );
