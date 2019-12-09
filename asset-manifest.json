@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/psychology-values/static/css/main.d1b05096.chunk.css",
+    "main.js": "/psychology-values/static/js/main.2cfee1f4.chunk.js",
+    "main.js.map": "/psychology-values/static/js/main.2cfee1f4.chunk.js.map",
+    "runtime-main.js": "/psychology-values/static/js/runtime-main.1ea46b72.js",
+    "runtime-main.js.map": "/psychology-values/static/js/runtime-main.1ea46b72.js.map",
+    "static/js/2.a38d59da.chunk.js": "/psychology-values/static/js/2.a38d59da.chunk.js",
+    "static/js/2.a38d59da.chunk.js.map": "/psychology-values/static/js/2.a38d59da.chunk.js.map",
+    "index.html": "/psychology-values/index.html",
+    "precache-manifest.62ae93ffafd8dc52d2b7ab5af1881f06.js": "/psychology-values/precache-manifest.62ae93ffafd8dc52d2b7ab5af1881f06.js",
+    "service-worker.js": "/psychology-values/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/psychology-values/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.a38d59da.chunk.js.LICENSE": "/psychology-values/static/js/2.a38d59da.chunk.js.LICENSE",
+    "static/media/logo.svg": "/psychology-values/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ea46b72.js",
+    "static/js/2.a38d59da.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.2cfee1f4.chunk.js"
+  ]
+}
