@@ -12,17 +12,17 @@ const useStyles = makeStyles(theme => ({
     },
   }));
 
-  export default function DecisionComponent({title, info, important}) {
+  export default function DecisionComponent({title, info, important, nimptext, imptext}) {
     const classes = useStyles();
   
     return (
       <div>
         <CardComponent title={title} info={info} />
         <Button variant="contained" className={classes.button} onClick={() => {important(false)}}>
-          Nieważne dla mnie
+          {nimptext}
         </Button>
         <Button variant="contained" color="primary" className={classes.button} onClick={() => {important(true)}}>
-          Ważne dla mnie
+          {imptext}
         </Button>
       </div>
     );

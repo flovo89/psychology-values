@@ -13,6 +13,8 @@ function App() {
   const [firstDataArray, setFirstDataArray] = useState([]);
   const [level, setLevel] = useState(1);
   const [showResult, setShowResult] = useState(false);
+  const [buttonNotImpText, setButtonNotImpText] = useState("Nieważne dla mnie");
+  const [buttonImpText, setButtonImpText] = useState("Ważne dla mnie");
 
   useEffect(() => {
     function parseJson() {
@@ -57,6 +59,8 @@ function App() {
       setTitle(firstDataArray[0].title);
       setInfo(firstDataArray[0].info);
       setFirstDataArray([]);
+      setButtonNotImpText("Ważne dla mnie");
+      setButtonImpText("Bardzo ważne dla mnie");
     } else {
       setTitle(dataArray[currentIndex+1].title);
       setInfo(dataArray[currentIndex+1].info);
@@ -76,7 +80,7 @@ function App() {
             :
             <>
               {"Level " + level}
-              <DecisionComponent title={title} info={info} important={setImportance} />
+              <DecisionComponent title={title} info={info} important={setImportance} nimptext={buttonNotImpText} imptext={buttonImpText}/>
               {"Progress: " + (currentIndex+1) + " / " + dataArray.length}
             </>
         }
