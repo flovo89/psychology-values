@@ -11,7 +11,7 @@ function App() {
   const [dataArray, setDataArray] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [firstDataArray, setFirstDataArray] = useState([]);
-  const [level, setLevel] = useState(0);
+  const [level, setLevel] = useState(1);
   const [showResult, setShowResult] = useState(false);
 
   useEffect(() => {
@@ -48,7 +48,7 @@ function App() {
     }
     
     if (currentIndex+1 === dataArray.length) {
-      if (level === 1) {
+      if (level === 2) {
         setShowResult(true);
       }
       setLevel(level + 1);
