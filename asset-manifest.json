@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/psychology-values/static/css/main.d1b05096.chunk.css",
-    "main.js": "/psychology-values/static/js/main.b97bc360.chunk.js",
-    "main.js.map": "/psychology-values/static/js/main.b97bc360.chunk.js.map",
+    "main.js": "/psychology-values/static/js/main.7252e131.chunk.js",
+    "main.js.map": "/psychology-values/static/js/main.7252e131.chunk.js.map",
     "runtime-main.js": "/psychology-values/static/js/runtime-main.1ea46b72.js",
     "runtime-main.js.map": "/psychology-values/static/js/runtime-main.1ea46b72.js.map",
-    "static/js/2.3bb25c33.chunk.js": "/psychology-values/static/js/2.3bb25c33.chunk.js",
-    "static/js/2.3bb25c33.chunk.js.map": "/psychology-values/static/js/2.3bb25c33.chunk.js.map",
+    "static/js/2.9dd8d56e.chunk.js": "/psychology-values/static/js/2.9dd8d56e.chunk.js",
+    "static/js/2.9dd8d56e.chunk.js.map": "/psychology-values/static/js/2.9dd8d56e.chunk.js.map",
     "index.html": "/psychology-values/index.html",
-    "precache-manifest.763c34403bd52c25fad19aa2fc472b10.js": "/psychology-values/precache-manifest.763c34403bd52c25fad19aa2fc472b10.js",
+    "precache-manifest.0cb255a948361210bc9c0615f9b59cf5.js": "/psychology-values/precache-manifest.0cb255a948361210bc9c0615f9b59cf5.js",
     "service-worker.js": "/psychology-values/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/psychology-values/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.3bb25c33.chunk.js.LICENSE": "/psychology-values/static/js/2.3bb25c33.chunk.js.LICENSE"
+    "static/js/2.9dd8d56e.chunk.js.LICENSE": "/psychology-values/static/js/2.9dd8d56e.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.1ea46b72.js",
-    "static/js/2.3bb25c33.chunk.js",
+    "static/js/2.9dd8d56e.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.b97bc360.chunk.js"
+    "static/js/main.7252e131.chunk.js"
   ]
 }
