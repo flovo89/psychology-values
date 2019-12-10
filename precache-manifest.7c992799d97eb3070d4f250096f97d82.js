@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b24dd8eb31851ababb03edb7399499b",
+    "revision": "fbdb2edeb553cb9580e56c53f8e537e4",
     "url": "/psychology-values/index.html"
   },
   {
-    "revision": "7fafb7d0df1d2ac46b9a",
+    "revision": "11dcd36b39077b92b551",
     "url": "/psychology-values/static/css/main.d1b05096.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/psychology-values/static/js/2.9dd8d56e.chunk.js.LICENSE"
   },
   {
-    "revision": "7fafb7d0df1d2ac46b9a",
-    "url": "/psychology-values/static/js/main.7252e131.chunk.js"
+    "revision": "11dcd36b39077b92b551",
+    "url": "/psychology-values/static/js/main.282d2fdc.chunk.js"
   },
   {
     "revision": "8a9cf31577faf1e15d1c",
