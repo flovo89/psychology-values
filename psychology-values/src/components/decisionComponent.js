@@ -18,11 +18,11 @@ const useStyles = makeStyles(theme => ({
     return (
       <div>
         <CardComponent title={title} info={info} />
-        <Button variant="contained" className={classes.button} onClick={important(true)}>
-          Normal
+        <Button variant="contained" className={classes.button} onClick={() => {important(false)}}>
+          Nieważne dla mnie
         </Button>
-        <Button variant="contained" color="primary" className={classes.button} onClick={important(false)}>
-          Important
+        <Button variant="contained" color="primary" className={classes.button} onClick={() => {important(true)}}>
+          Ważne dla mnie
         </Button>
       </div>
     );
